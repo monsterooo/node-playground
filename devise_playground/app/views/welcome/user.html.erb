@@ -1,0 +1,13 @@
+<p>!user</p>
+
+<% if user_signed_in? %>
+  <p>signed</p>
+  <pre>
+    <%= current_user.to_yaml %>
+  </pre>
+  <pre>
+    <%= user_session.to_yaml %>
+  </pre>
+<% else %>
+  <p>need sign</p>
+<% end %>
