@@ -19,5 +19,12 @@
   "dependencies": {
     "mongodb": "^3.1.0-beta4",
     "mongoose": "^5.1.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.0.2",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^4.0.1",
+    "tailwindcss": "^0.6.4"
   }
 }
